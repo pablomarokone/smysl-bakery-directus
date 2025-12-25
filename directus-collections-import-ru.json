@@ -1,0 +1,96 @@
+{
+  "collections": [
+    {
+      "collection": "site",
+      "meta": { "singleton": true },
+      "fields": [
+        { "field": "seo_title", "type": "string", "meta": { "name": "SEO-заголовок" } },
+        { "field": "seo_description", "type": "string", "meta": { "name": "SEO-описание" } },
+        { "field": "seo_keywords", "type": "string", "meta": { "name": "SEO-метатеги" } }
+      ]
+    },
+    {
+      "collection": "header",
+      "fields": [
+        { "field": "logo", "type": "file", "meta": { "name": "Логотип" } },
+        { "field": "menu", "type": "json", "meta": { "name": "Меню" } },
+        { "field": "phone", "type": "string", "meta": { "name": "Телефон" } },
+        { "field": "address", "type": "string", "meta": { "name": "Адрес" } }
+      ]
+    },
+    {
+      "collection": "hero",
+      "fields": [
+        { "field": "title", "type": "string", "meta": { "name": "Заголовок" } },
+        { "field": "subtitle", "type": "string", "meta": { "name": "Подзаголовок" } },
+        { "field": "backgroundImage", "type": "file", "meta": { "name": "Фоновое изображение" } },
+        { "field": "button_h", "type": "string", "meta": { "name": "Текст кнопки" } }
+      ]
+    },
+    {
+      "collection": "products",
+      "fields": [
+        { "field": "title", "type": "string", "meta": { "name": "Заголовок" } },
+        { "field": "subtitle", "type": "string", "meta": { "name": "Подзаголовок" } },
+        { "field": "description", "type": "text", "meta": { "name": "Описание" } },
+        { "field": "ingredients", "type": "string", "meta": { "name": "Ингредиенты" } },
+        { "field": "weight", "type": "string", "meta": { "name": "Вес" } },
+        { "field": "product_photo", "type": "file", "meta": { "name": "Фото продукта" } },
+        { "field": "seo_title", "type": "string", "meta": { "name": "SEO-заголовок" } },
+        { "field": "seo_description", "type": "string", "meta": { "name": "SEO-описание" } },
+        { "field": "seo_keywords", "type": "string", "meta": { "name": "SEO-метатеги" } }
+      ]
+    },
+    {
+      "collection": "about",
+      "fields": [
+        { "field": "title", "type": "string", "meta": { "name": "Заголовок" } },
+        { "field": "text_r", "type": "text", "meta": { "name": "Текст (правая колонка)" } },
+        { "field": "text_c", "type": "text", "meta": { "name": "Текст (центр)" } },
+        { "field": "text_r2", "type": "text", "meta": { "name": "Текст (правая колонка 2)" } },
+        { "field": "image_l", "type": "file", "meta": { "name": "Изображение (левое)" } },
+        { "field": "image_c", "type": "file", "meta": { "name": "Изображение (центр)" } },
+        { "field": "image_r", "type": "file", "meta": { "name": "Изображение (правое)" } },
+        { "field": "image_l2", "type": "file", "meta": { "name": "Изображение (левое 2)" } },
+        { "field": "image_c2", "type": "file", "meta": { "name": "Изображение (центр 2)" } }
+      ]
+    },
+    {
+      "collection": "news",
+      "fields": [
+        { "field": "id", "type": "integer", "meta": { "autoIncrement": true, "primary": true, "name": "ID" } },
+        { "field": "date", "type": "string", "meta": { "name": "Дата" } },
+        { "field": "title", "type": "string", "meta": { "name": "Заголовок" } },
+        { "field": "excerpt", "type": "string", "meta": { "name": "Краткое описание" } },
+        { "field": "image", "type": "file", "meta": { "name": "Обложка" } },
+        { "field": "fullContent", "type": "text", "meta": { "name": "Полный текст" } },
+        { "field": "gallery", "type": "json", "meta": { "name": "Галерея" } },
+        { "field": "seo_title", "type": "string", "meta": { "name": "SEO-заголовок" } },
+        { "field": "seo_description", "type": "string", "meta": { "name": "SEO-описание" } },
+        { "field": "seo_keywords", "type": "string", "meta": { "name": "SEO-метатеги" } }
+      ]
+    },
+    {
+      "collection": "mission",
+      "fields": [
+        { "field": "title", "type": "string", "meta": { "name": "Заголовок" } },
+        { "field": "text", "type": "text", "meta": { "name": "Текст" } },
+        { "field": "image", "type": "file", "meta": { "name": "Изображение" } }
+      ]
+    },
+    {
+      "collection": "footer",
+      "fields": [
+        { "field": "logo", "type": "file", "meta": { "name": "Логотип" } },
+        { "field": "social_links", "type": "json", "meta": { "name": "Соцсети" } },
+        { "field": "phone", "type": "string", "meta": { "name": "Телефон" } },
+        { "field": "email", "type": "string", "meta": { "name": "Email" } },
+        { "field": "address", "type": "string", "meta": { "name": "Адрес" } },
+        { "field": "address_details", "type": "string", "meta": { "name": "Адрес (детали)" } },
+        { "field": "buyers_links", "type": "json", "meta": { "name": "Покупателям" } },
+        { "field": "map_iframe", "type": "string", "meta": { "name": "Карта (iframe)" } },
+        { "field": "copyright", "type": "string", "meta": { "name": "Копирайт" } }
+      ]
+    }
+  ]
+}

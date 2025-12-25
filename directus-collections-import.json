@@ -1,0 +1,96 @@
+{
+  "collections": [
+    {
+      "collection": "site",
+      "meta": { "singleton": true },
+      "fields": [
+        { "field": "seo_title", "type": "string" },
+        { "field": "seo_description", "type": "string" },
+        { "field": "seo_keywords", "type": "string" }
+      ]
+    },
+    {
+      "collection": "header",
+      "fields": [
+        { "field": "logo", "type": "file" },
+        { "field": "menu", "type": "json" },
+        { "field": "phone", "type": "string" },
+        { "field": "address", "type": "string" }
+      ]
+    },
+    {
+      "collection": "hero",
+      "fields": [
+        { "field": "title", "type": "string" },
+        { "field": "subtitle", "type": "string" },
+        { "field": "backgroundImage", "type": "file" },
+        { "field": "button_h", "type": "string" }
+      ]
+    },
+    {
+      "collection": "products",
+      "fields": [
+        { "field": "title", "type": "string" },
+        { "field": "subtitle", "type": "string" },
+        { "field": "description", "type": "text" },
+        { "field": "ingredients", "type": "string" },
+        { "field": "weight", "type": "string" },
+        { "field": "product_photo", "type": "file" },
+        { "field": "seo_title", "type": "string" },
+        { "field": "seo_description", "type": "string" },
+        { "field": "seo_keywords", "type": "string" }
+      ]
+    },
+    {
+      "collection": "about",
+      "fields": [
+        { "field": "title", "type": "string" },
+        { "field": "text_r", "type": "text" },
+        { "field": "text_c", "type": "text" },
+        { "field": "text_r2", "type": "text" },
+        { "field": "image_l", "type": "file" },
+        { "field": "image_c", "type": "file" },
+        { "field": "image_r", "type": "file" },
+        { "field": "image_l2", "type": "file" },
+        { "field": "image_c2", "type": "file" }
+      ]
+    },
+    {
+      "collection": "news",
+      "fields": [
+        { "field": "id", "type": "integer", "meta": { "autoIncrement": true, "primary": true } },
+        { "field": "date", "type": "string" },
+        { "field": "title", "type": "string" },
+        { "field": "excerpt", "type": "string" },
+        { "field": "image", "type": "file" },
+        { "field": "fullContent", "type": "text" },
+        { "field": "gallery", "type": "json" },
+        { "field": "seo_title", "type": "string" },
+        { "field": "seo_description", "type": "string" },
+        { "field": "seo_keywords", "type": "string" }
+      ]
+    },
+    {
+      "collection": "mission",
+      "fields": [
+        { "field": "title", "type": "string" },
+        { "field": "text", "type": "text" },
+        { "field": "image", "type": "file" }
+      ]
+    },
+    {
+      "collection": "footer",
+      "fields": [
+        { "field": "logo", "type": "file" },
+        { "field": "social_links", "type": "json" },
+        { "field": "phone", "type": "string" },
+        { "field": "email", "type": "string" },
+        { "field": "address", "type": "string" },
+        { "field": "address_details", "type": "string" },
+        { "field": "buyers_links", "type": "json" },
+        { "field": "map_iframe", "type": "string" },
+        { "field": "copyright", "type": "string" }
+      ]
+    }
+  ]
+}
