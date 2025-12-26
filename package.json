@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@directus/storage-driver-supabase": "^3.0.13",
+    "@directus/storage-driver-s3": "^1.0.0"
     "directus": "^11.14.0",
     "form-data": "^4.0.5",
     "pg": "^8.16.3",
